@@ -46,12 +46,24 @@ h2 {
 .main {
     text-align: center;
     background: #1D1D49;
-    width: 1180px;
     height: 739px;
     flex-shrink: 0;
     border: 1px solid #000;
-    background: #1D1D49;
-   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
+}
+
+.imagen-cara{
+  width: 524px;
+  height: 524px;
+  margin-top: -287px;
+  margin-left: 68px;
+  
+}
+.imagen-logo{
+  width: 368px;
+  height: 329px;
+  margin-top: -592px;
+  margin-left: 402px;
 
 }
 
@@ -74,7 +86,6 @@ h2 {
   padding-left: 210px;
 }
 
-
 .autor {
   color: #ffffff;
   width: 547px;
@@ -93,6 +104,11 @@ h2 {
   padding-right: 200px;
   padding-bottom: 300px;
   padding-left: 400px;
+}
+
+.imagen-principal{
+  height: 1131px;
+  flex-shrink: 0;
 }
 
 .footer {

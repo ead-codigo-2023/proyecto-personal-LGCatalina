@@ -1,0 +1,17 @@
+body{
+    background: #F4EDE4;
+    
+}
+.header{
+    background: #1D1D49;
+    color: #F4EDE4;
+
+}
+.contenedor-mitad {
+    display: flex;
+    background: #E2D6C0;
+}
+
+.texto-mitad{
+    padding: 2%;
+}
