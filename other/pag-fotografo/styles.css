@@ -1,23 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #fff
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:#F4EDE4;
+}
 .header {
-    color: #1D1D49;
-
-    font-feature-settings: 'cpsp' on;
-    font-family: Playfair Display;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    font-variant: small-caps;
-  }
-
-.title {
   color: #1D1D49;
+
   font-feature-settings: 'cpsp' on;
   font-family: Playfair Display;
   font-size: 48px;
@@ -25,71 +14,112 @@ body {
   font-weight: 600;
   line-height: normal;
   font-variant: small-caps;
-  padding-left: 40px;
-  padding-bottom: 200px;
+}
+
+.rectangulo{
+width: 1200px;
+height: 146px;
+flex-shrink: 0;
+background: #1D1D49;
+padding-top: 0px;
+}
+
+
+.title {
+color: #F4EDE4;
+font-feature-settings: 'cpsp' on;
+font-family: Playfair Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-variant: small-caps;
+padding-left: 40px;
+padding-top: 30px;
+padding-bottom: 200px;
+}
+
+.Cuadro1{
+width: 750px;
+height: 500px;
+flex-shrink: 0;
+background: #D9D9D9;
+position: relative;
+left: 400px;
+top: 100px;
 }
 
 .subtitle1{
-  color: #1D1D49;
+color: #1D1D49;
 
-  font-feature-settings: 'cpsp' on;
-  font-family: Playfair Display;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  text-transform: capitalize;
-  width: 562px;
-  height: 60px;
-  flex-shrink: 0;
-  padding-left: 400px;
-  padding-bottom: 0px;
+font-feature-settings: 'cpsp' on;
+font-family: Playfair Display;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+width: 562px;
+height: 60px;
+flex-shrink: 0;
+padding-left: 20px;
+padding-bottom: 0px;
 }
 
 .texto{
-  color: #3C3C3B;
- font-feature-settings: 'cpsp' on;
- font-family: Playfair Display;
- font-size: 30px;
- font-style: normal;
- font-weight: 600;
- line-height: normal;
- width: 740px;
- height: 587px;
- flex-shrink: 0;
- padding-top: 0px;
- padding-right: 200px;
- padding-bottom: 40px;
- padding-left: 400px;
+color: #3C3C3B;
+font-feature-settings: 'cpsp' on;
+font-family: Playfair Display;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 700px;
+height: 587px;
+flex-shrink: 0;
+padding-top: 0px;
+padding-bottom: 40px;
+padding-left: 20px;
+}
+
+
+.Cuadro2{
+width: 750px;
+height: 500px;
+flex-shrink: 0;
+background: #D9D9D9;
+position: relative; 
+left: 30px;
+top: 200px;
 }
 
 .subtitle2{
-  color: #1D1D49;
+color: #1D1D49;
 
-  font-feature-settings: 'cpsp' on;
-  font-family: Playfair Display;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  text-transform: capitalize;
-  width: 562px;
-  height: 60px;
-  flex-shrink: 0;
-  padding-left: 40px;
+font-feature-settings: 'cpsp' on;
+font-family: Playfair Display;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+width: 562px;
+height: 60px;
+flex-shrink: 0;
+padding-left: 20px;
 
 }
 .texto2{
-  color: #3C3C3B;
- font-feature-settings: 'cpsp' on;
- font-family: Playfair Display;
- font-size: 30px;
- font-style: normal;
- font-weight: 600;
- line-height: normal;
- width: 740px;
- height: 541px;
- flex-shrink: 0;
- padding-top: 0px;
- padding-left: 40px;
+color: #3C3C3B;
+font-feature-settings: 'cpsp' on;
+font-family: Playfair Display;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 700px;
+height: 541px;
+flex-shrink: 0;
+padding-top: 0px;
+padding-left: 20px;
 }
