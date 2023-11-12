@@ -1,95 +1,46 @@
+/* Base styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
 }
+
 .header {
-  text-align: center;
   padding: 20px;
-  font-size: 20px;
+  font-size: 1.25rem; /* 20px */
   background-color: #f4ede4;
-  line-height: 100px;
 }
 
-.title{
+.title {
   color: #1D1D49;
-    width: 509px;
-    height: 115px;
-    top: 70px;
-    left: 65px;
-    font-family: 'Playfair Display', sans-serif;
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 70px;
-    letter-spacing: 0em;
-    text-align: left;  
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 2.5rem; /* 40px */
+  font-weight: 600;
 }
 
-h1 {
-  color: #1D1D49;
-  text-transform:uppercase;
-}
-h2 {
-  color: #3C3C3B;
-  text-transform:uppercase;
-}
-
-.botons-page{
-  color: #3C3C3B;
+.botons-page {
   text-align: right;
   font-family: 'Playfair Display', sans-serif;
 }
 
 .main {
-    text-align: center;
-    background: #1D1D49;
-    width: 1180px;
-    height: 739px;
-    flex-shrink: 0;
-    border: 1px solid #000;
-    background: #1D1D49;
-   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
-
+  background: #1D1D49;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .texto {
   color: #ffffff;
-  width: 780px;
-  height: 256px;
-  top: 998px;
-  left: 223px;
-
-  text-align: center;
   font-family: 'Playfair Display', sans-serif;
-  font-size: 40px;
-  font-style: normal;
+  font-size: 2.5rem; /* 40px */
   font-weight: 600;
-  line-height: normal;
-  font-variant: small-caps;
-  padding-top: 200px;
-  padding-right: 400px;
-  padding-left: 210px;
+  padding: 200px 210px;
 }
-
 
 .autor {
   color: #ffffff;
-  width: 547px;
-  height: 59px;
-  top: 1287px;
-  left: 670px;
-
-  text-align: right;
   font-family: 'Playfair Display', sans-serif;
-  font-size: 32px;
-  font-style: normal;
+  font-size: 2rem; /* 32px */
   font-weight: 600;
-  line-height: normal;
-  font-variant: small-caps;
-  padding-top: 1px;
-  padding-right: 200px;
-  padding-bottom: 300px;
-  padding-left: 400px;
 }
 
 .footer {
@@ -100,59 +51,60 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-  
+
 .footer-link {
   display: flex;
   align-items: center;
   margin-right: 20px;
-  font-size: 16px;
+  font-size: 1rem; /* 16px */
   text-decoration: none;
   color: #ffffff;
 }
-  
-.icon-instagram:before {
-  content: "\f16d";
-  width: 268px;
-  height: 46px;
-  top: 2047px;
-  left: 131px;
 
-  font-family: 'Playfair Display', sans-serif;
-  font-style: normal;
-  font-variant: small-caps;
-  font-size: 28px;
-  font-weight: 600;
-  line-height: 37px;
-  letter-spacing: 0em;
-  text-align: center;
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .header, .title, .botons-page, .main, .texto, .autor, .footer, .footer-link {
+    padding: 10px;
+    font-size: 90%; /* Reduce font size by 10% */
+  }
+
+  .texto, .autor {
+    padding: 100px 105px; /* Half the original padding */
+  }
 }
-  
-.icon-phone:before {
-  content: "\f095";
-  width: 268px;
-  height: 46px;
-  top: 2049px;
-  left: 477px;
 
-  font-family: 'Playfair Display', sans-serif;
-  font-size: 28px;
-  font-weight: 600;
-  line-height: 37px;
-  letter-spacing: 0em;
-  text-align: center;
+@media (max-width: 768px) {
+  .header, .title, .botons-page, .main, .texto, .autor, .footer, .footer-link {
+    padding: 5px;
+    font-size: 80%; /* Reduce font size to 80% of the original */
+  }
+
+  .texto, .autor {
+    padding: 50px 52px; /* Smaller padding */
+  }
 }
-  
-.icon-email:before {
-  content: "\f0e0";
-  width: 582px;
-  height: 46px;
-  top: 2052px;
-  left: 788px;
 
-  font-family: 'Playfair Display', sans-serif;
-  font-size: 28px;
-  font-weight: 600;
-  line-height: 37px;
-  letter-spacing: 0em;
-  text-align: center;
+@media (max-width: 576px) {
+  .header, .title, .botons-page, .main, .texto, .autor, .footer, .footer-link {
+    padding: 2px;
+    font-size: 70%; /* Reduce font size for very small devices */
+  }
+
+  .texto, .autor {
+    padding: 25px 26px;
+  }
+
+  .footer {
+    flex-direction: column; /* Stack footer items */
+  }
+
+  .footer-link {
+    margin: 10px 0; /* Adjust margin for stacked items */
+  }
+}
+
+/* Ensure images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
 }
