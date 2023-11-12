@@ -1,85 +1,64 @@
-body, html {
-  width: 100%;
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
-
 .header {
-  position: relative;
-  z-index: 2;
-  text-align: center;
   text-align: center;
   padding: 20px;
-  color: #3C3C3B;
   font-size: 20px;
   background-color: #f4ede4;
   line-height: 100px;
 }
 
-.title {
+.title{
   color: #1D1D49;
-  width: 509px;
-  height: 115px;
-  margin: 70px 0 0 65px;
-  font-family: 'Playfair Display', sans-serif;
-  font-size: 40px;
-  font-weight: 600;
-  line-height: 70px;
-  letter-spacing: 0em;
-  text-align: left;
-  position: relative;
-  z-index: 1
+    width: 509px;
+    height: 115px;
+    top: 70px;
+    left: 65px;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;  
 }
 
 h1 {
   color: #1D1D49;
-  text-transform: uppercase;
+  text-transform:uppercase;
 }
-
 h2 {
   color: #3C3C3B;
-  text-transform: uppercase;
+  text-transform:uppercase;
 }
 
-.botons-page {
+.botons-page{
   color: #3C3C3B;
   text-align: right;
   font-family: 'Playfair Display', sans-serif;
 }
 
 .main {
-  position: relative; /* Ensure a positioned context for z-index to work */
-  z-index: 1; /* Set a lower z-index for the main section */
-  text-align: center;
-  background: #1D1D49;
-  height: 739px;
-  border: 1px solid #000;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
+    text-align: center;
+    background: #1D1D49;
+    width: 1180px;
+    height: 739px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #1D1D49;
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
 
-.imagen-cara {
-  width: 524px;
-  height: 524px;
-  margin-top: -287px;
-  margin-left: 68px;
-  position: relative;
-  z-index: 3; /* Set a higher z-index for the cara image */
-}
-
-.imagen-logo {
-  width: 368px;
-  height: 329px;
-  margin-top: -592px;
-  margin-left: 402px;
-  position: relative;
-  z-index: 3; /* Set a higher z-index for the logo image */
 }
 
 .texto {
   color: #ffffff;
   width: 780px;
   height: 256px;
-  margin: 0 auto;
+  top: 998px;
+  left: 223px;
+
   text-align: center;
   font-family: 'Playfair Display', sans-serif;
   font-size: 40px;
@@ -87,14 +66,19 @@ h2 {
   font-weight: 600;
   line-height: normal;
   font-variant: small-caps;
-  padding: 200px 400px;
+  padding-top: 200px;
+  padding-right: 400px;
+  padding-left: 210px;
 }
+
 
 .autor {
   color: #ffffff;
   width: 547px;
   height: 59px;
-  margin: 0 auto 300px auto;
+  top: 1287px;
+  left: 670px;
+
   text-align: right;
   font-family: 'Playfair Display', sans-serif;
   font-size: 32px;
@@ -102,18 +86,11 @@ h2 {
   font-weight: 600;
   line-height: normal;
   font-variant: small-caps;
-  padding: 1px 200px 0 400px;
+  padding-top: 1px;
+  padding-right: 200px;
+  padding-bottom: 300px;
+  padding-left: 400px;
 }
-
-
-.imagen-principal {
-  width: 100%;
-  height: auto;
-  display: block; /* Ensures the image behaves like a block element */
-  margin: 0 auto; /* Center the image horizontally */
-  max-width: 100%; /* Ensure the image doesn't exceed its natural size */
-}
-
 
 .footer {
   background-color: #000000;
@@ -123,7 +100,7 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-
+  
 .footer-link {
   display: flex;
   align-items: center;
@@ -132,26 +109,50 @@ h2 {
   text-decoration: none;
   color: #ffffff;
 }
-
-.icon {
+  
+.icon-instagram:before {
+  content: "\f16d";
   width: 268px;
   height: 46px;
-  font-family: 'Playfair Display';
+  top: 2047px;
+  left: 131px;
+
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-variant: small-caps;
   font-size: 28px;
   font-weight: 600;
   line-height: 37px;
   letter-spacing: 0em;
   text-align: center;
 }
-
-.icon-instagram:before {
-  content: "\f16d";
-}
-
+  
 .icon-phone:before {
   content: "\f095";
-}
+  width: 268px;
+  height: 46px;
+  top: 2049px;
+  left: 477px;
 
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+  
 .icon-email:before {
   content: "\f0e0";
+  width: 582px;
+  height: 46px;
+  top: 2052px;
+  left: 788px;
+
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: center;
 }

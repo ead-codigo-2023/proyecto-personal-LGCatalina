@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff
+  }
+.header {
+    color: #1D1D49;
+
+    font-feature-settings: 'cpsp' on;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-variant: small-caps;
+  }
+
+.title {
+  color: #1D1D49;
+  font-feature-settings: 'cpsp' on;
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-variant: small-caps;
+  padding-left: 40px;
+  padding-bottom: 200px;
+}
+
+.subtitle1{
+  color: #1D1D49;
+
+  font-feature-settings: 'cpsp' on;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  width: 562px;
+  height: 60px;
+  flex-shrink: 0;
+  padding-left: 400px;
+  padding-bottom: 0px;
+}
+
+.texto{
+  color: #3C3C3B;
+ font-feature-settings: 'cpsp' on;
+ font-family: Playfair Display;
+ font-size: 30px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: normal;
+ width: 740px;
+ height: 587px;
+ flex-shrink: 0;
+ padding-top: 0px;
+ padding-right: 200px;
+ padding-bottom: 40px;
+ padding-left: 400px;
+}
+
+.subtitle2{
+  color: #1D1D49;
+
+  font-feature-settings: 'cpsp' on;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  width: 562px;
+  height: 60px;
+  flex-shrink: 0;
+  padding-left: 40px;
+
+}
+.texto2{
+  color: #3C3C3B;
+ font-feature-settings: 'cpsp' on;
+ font-family: Playfair Display;
+ font-size: 30px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: normal;
+ width: 740px;
+ height: 541px;
+ flex-shrink: 0;
+ padding-top: 0px;
+ padding-left: 40px;
+}
