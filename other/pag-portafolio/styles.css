@@ -1,0 +1,30 @@
+.header{
+    background: #1D1D49;
+    
+
+}
+.title{
+    color: #F4EDE4;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    background: #F4EDE4;
+}
+
+.image{
+    display: inline-block;
+}
+
+.subBlock{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    background: #E2D6C0;
+}
+
+.subImage{
+    display: inline-block;
+    
+}
