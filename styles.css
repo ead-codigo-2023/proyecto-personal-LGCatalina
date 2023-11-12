@@ -41,7 +41,7 @@ body {
   top: 20%;
   left: 20%;
 
-  position: absolute;
+  position: relative;
   bottom: 100%;
   transform: translate(2%, 20%);
   z-index: 10;
@@ -51,7 +51,7 @@ body {
   top: 592px;
   left: 402px;
 
-  position: absolute;
+  position: relative;
   bottom: 100%;
   transform: translate(0%, -120%);
   z-index: 10;
