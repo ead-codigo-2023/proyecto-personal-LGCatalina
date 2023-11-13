@@ -38,22 +38,24 @@ body {
 }
 
 .imagen-cara {
-  top: 20%;
-  left: 20%;
+  top: -120px;
+  left: 40px;
+  width: auto;
+  height: 300px;
 
-  position: relative;
+  position: absolute;
   bottom: 100%;
-  transform: translate(2%, 20%);
   z-index: 10;
 }
 
 .imagen-logo {
-  top: 592px;
-  left: 402px;
+  top: 60px;
+  left: 240px;
+  width: auto;
+  height: 200px;
 
-  position: relative;
+  position: absolute;
   bottom: 100%;
-  transform: translate(0%, -120%);
   z-index: 10;
 }
 
@@ -75,6 +77,8 @@ body {
   line-height: 64px;
   letter-spacing: 0em;
   margin: 0%;
+  padding: 12%;
+
 }
 .autor{
   text-align: right;
@@ -111,7 +115,9 @@ body {
     padding: 10px;
     font-size: 90%;
   }
-
+  .image-container{
+    width: 300px;
+  }
   .texto, .autor {
     padding: 100px 105px;
   }
@@ -122,18 +128,23 @@ body {
     padding: 5px;
     font-size: 80%;
   }
+  .image-container{
+    width: 300px;
+  }
 
   .texto, .autor {
     padding: 50px 52px;
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 320px) {
   .header, .title, .botons-page, .main, .texto, .autor, .footer, .footer-link {
     padding: 2px;
     font-size: 70%;
   }
-
+  .image-container{
+    height: 50px;
+  }
   .texto, .autor {
     padding: 25px 26px;
   }
