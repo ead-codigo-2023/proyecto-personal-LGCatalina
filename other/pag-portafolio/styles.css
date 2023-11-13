@@ -1,16 +1,41 @@
+body{
+    background: #F4EDE4;
+    font-family: 'Playfair Display';
+}
+
 .header{
     background: #1D1D49;
-    
-
-}
-.title{
     color: #F4EDE4;
 }
+
+.rectangulo{
+    width: auto;
+    height: 80px;
+    flex-shrink: 0;
+    background: #1D1D49;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.title{
+ color: #F4EDE4;
+ font-feature-settings: 'cpsp' on;
+ font-family: 'Playfair Display';
+ font-size: 28px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: normal;
+ font-variant: small-caps;
+ padding-left: 40px;
+ padding-top: 10px;
+}
+
 .block{
     display: flex;
     flex-direction: row;
     gap: 2%;
     background: #F4EDE4;
+    border: #F4EDE4 15px solid;
 }
 
 .image{
@@ -22,6 +47,7 @@
     flex-direction: row;
     gap: 2%;
     background: #E2D6C0;
+    border: #F4EDE4 15px solid;
 }
 
 .subImage{
