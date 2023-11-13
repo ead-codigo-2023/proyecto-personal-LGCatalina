@@ -1,17 +1,119 @@
 body{
     background: #F4EDE4;
-    
 }
+
 .header{
     background: #1D1D49;
     color: #F4EDE4;
-
 }
+
+.rectangulo{
+    width: auto;
+    height: 80px;
+    flex-shrink: 0;
+    background: #1D1D49;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.title{
+ color: #F4EDE4;
+ font-feature-settings: 'cpsp' on;
+ font-family: Playfair Display;
+ font-size: 28px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: normal;
+ font-variant: small-caps;
+ padding-left: 40px;
+ padding-top: 10px;
+}
+
 .contenedor-mitad {
-    display: flex;
+    border-top: #F4EDE4 10px solid;
+    border-bottom: #F4EDE4 10px solid;
+    width: auto;
     background: #E2D6C0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contenedor{
+    width: auto;
+    height: 70px;
+    background: #F4EDE4;
+}
+
+.subtitle{
+ color: #1D1D49;
+ text-align: center;
+ font-feature-settings: 'cpsp' on;
+ font-family: Playfair Display;
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: normal;
+ text-transform: uppercase;
+}
+
+.texto1{
+ color: #3C3C3B;
+ text-align: center;
+ font-feature-settings: 'cpsp' on;
+ font-family: Playfair Display;
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: normal;
 }
 
 .texto-mitad{
     padding: 2%;
+}
+
+
+
+
+
+
+/* Responsive styles /
+@media (max-width: 1024px) {
+  .header, .title, .botons-page, .main, .texto, .autor, .footer, .footer-link {
+    padding: 10px;
+    font-size: 90%; / Reduce font size by 10% /
+  }
+
+  .texto, .autor {
+    padding: 100px 105px; / Half the original padding /
+  }
+}
+
+@media (max-width: 768px) {
+  .header, .title, .botons-page, .main, .texto, .autor, .footer, .footer-link {
+    padding: 5px;
+    font-size: 80%; / Reduce font size to 80% of the original /
+  }
+
+  .texto, .autor {
+    padding: 50px 52px; / Smaller padding /
+  }
+}
+
+@media (max-width: 895px) {
+  .header, .title, .botons-page, .main, .texto, .autor, .footer, .footer-link {
+    padding: 2px;
+    font-size: 70%; / Reduce font size for very small devices /
+  }
+
+  .texto, .autor {
+    padding: 25px 26px;
+  }
+
+  .footer {
+    flex-direction: column; / Stack footer items /
+  }
+
+  .footer-link {
+    margin: 10px 0; / Adjust margin for stacked items */
+}
 }
