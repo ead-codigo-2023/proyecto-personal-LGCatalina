@@ -5,38 +5,30 @@ body {
   background: #F4EDE4;
 }
 .header {
-  color: #1D1D49;
-  font-feature-settings: 'cpsp' on;
-  font-family: Playfair Display;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  font-variant: small-caps;
+  background: #1D1D49;
+  color: #F4EDE4;
 }
 
 .rectangulo{
-width: auto;
-height: 80px;
-flex-shrink: 0;
-background: #1D1D49;
-padding-top: 0px;
-padding-bottom: 0px;
+  width: auto;
+  height: 80px;
+  flex-shrink: 0;
+  background: #1D1D49;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
-
 
 .title {
 color: #F4EDE4;
 font-feature-settings: 'cpsp' on;
 font-family: Playfair Display;
-font-size: 48px;
+font-size: 28px;
 font-style: normal;
-font-weight: 600;
+font-weight: 28;
 line-height: normal;
 font-variant: small-caps;
 padding-left: 40px;
-padding-top: 20px;
-padding-bottom: 200px;
+padding-top: 10px;
 }
 
 
@@ -85,8 +77,8 @@ padding-left: 20px;
 }
 
 .imagen-cara{
-  width: 500px;
-  height: 500px;
+  max-width: 100%;
+  height: auto;
   flex-shrink: 0;
   padding-left: 20px;
   position: relative;
@@ -135,8 +127,8 @@ padding-left: 20px;
 }
 
 .imagen-logo{
-  width: 500px;
-  height: 500px;
+  max-width: 100%;
+  height: auto;
   flex-shrink: 0;
   position: relative;
   top: 1000px;

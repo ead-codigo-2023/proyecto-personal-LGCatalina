@@ -30,8 +30,8 @@ body{
 }
 
 .contenedor-mitad {
-    border-top: #F4EDE4 10px solid;
-    border-bottom: #F4EDE4 10px solid;
+    border-top: #F4EDE4 15px solid;
+    border-bottom: #F4EDE4 15px solid;
     width: auto;
     background: #E2D6C0;
     display: grid;
@@ -40,7 +40,7 @@ body{
 
 .contenedor{
     width: auto;
-    height: 70px;
+    height: 80px;
     background: #F4EDE4;
 }
 
@@ -66,7 +66,6 @@ body{
  font-weight: 600;
  line-height: normal;
 }
-
 .texto-mitad{
     padding: 2%;
 }
