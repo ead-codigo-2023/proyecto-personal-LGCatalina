@@ -43,7 +43,7 @@ body {
 
   position: relative;
   bottom: 100%;
-  transform: translate(2%, 20%);
+  transform: translate(-30%, -30%);
   z-index: 10;
 }
 
@@ -53,7 +53,7 @@ body {
 
   position: relative;
   bottom: 100%;
-  transform: translate(0%, -120%);
+  transform: translate(-150%, -190%);
   z-index: 10;
 }
 
@@ -147,3 +147,7 @@ body {
   }
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
