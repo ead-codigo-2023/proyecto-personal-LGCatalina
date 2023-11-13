@@ -6,16 +6,16 @@ body {
   padding: 0;
 }
 
-.header {
+.container-1{
   padding: 20px;
   font-size: 1.25rem; /* 20px */
   background-color: #f4ede4;
   position: static;
   width: auto;
-  height: 100%;
+  height: 739px;
 }
 
-.title {
+.title{
   color: #1D1D49;
   font-family: 'Playfair Display', sans-serif;
   font-size: 2.5rem; /* 40px */
@@ -57,12 +57,13 @@ body {
   z-index: 10;
 }
 
-.main {
+.container-2{
   background: #1D1D49;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   position: static;
   width: auto;
-  height: 100%;
+  height: 739px;
+  padding: 20px;
 }
 
 .texto, .autor{
@@ -70,17 +71,18 @@ body {
   font-family: 'Playfair Display', sans-serif;
   font-size: 40px;
   font-weight: 600;
-  padding: 100px 100px;
   text-align: center;
   line-height: 64px;
   letter-spacing: 0em;
+  margin: 0%;
 }
 .autor{
   text-align: right;
 }
-.imagen-principal{
+
+.container-3{
   width: auto;
-  height: 100%;
+  height: 739px;
   position: static;
 }
 
@@ -94,6 +96,7 @@ body {
 }
 
 .footer-link {
+  position: static;
   display: flex;
   align-items: center;
   margin-right: 20px;
@@ -103,32 +106,32 @@ body {
 }
 
 /* Responsive styles */
-@media (max-width: 2560px) {
+@media (max-width: 1024px) {
   .header, .title, .botons-page, .main, .texto, .autor, .footer, .footer-link {
     padding: 10px;
-    font-size: 90%; /* Reduce font size by 10% */
+    font-size: 90%;
   }
 
   .texto, .autor {
-    padding: 100px 105px; /* Half the original padding */
+    padding: 100px 105px;
   }
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 768px) {
   .header, .title, .botons-page, .main, .texto, .autor, .footer, .footer-link {
     padding: 5px;
-    font-size: 80%; /* Reduce font size to 80% of the original */
+    font-size: 80%;
   }
 
   .texto, .autor {
-    padding: 50px 52px; /* Smaller padding */
+    padding: 50px 52px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 576px) {
   .header, .title, .botons-page, .main, .texto, .autor, .footer, .footer-link {
     padding: 2px;
-    font-size: 70%; /* Reduce font size for very small devices */
+    font-size: 70%;
   }
 
   .texto, .autor {
@@ -136,10 +139,11 @@ body {
   }
 
   .footer {
-    flex-direction: column; /* Stack footer items */
+    flex-direction: column;
   }
 
   .footer-link {
-    margin: 10px 0; /* Adjust margin for stacked items */
+    margin: 10px 0;
   }
 }
+
